@@ -26,7 +26,7 @@ def get_device() -> torch.device:
 def main() -> None:
     checkpoint_path = Path("checkpoint.pt")
     prompt = " "
-    max_new_tokens = 200
+    max_new_tokens = 128
 
     device = get_device()
 

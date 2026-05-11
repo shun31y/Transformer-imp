@@ -10,7 +10,7 @@ from src.tokenizer import CharTokenizer
 
 def main() -> None:
     data_path = Path("data/input.txt")
-    block_size = 128
+    block_size = 1024
     batch_size = 32
     d_model = 128
     num_heads = 4
